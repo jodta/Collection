@@ -1,5 +1,4 @@
-print("https://raw.githubusercontent.com/jodta/my-scripts/refs/heads/main/source.luau") -- screw off message
-local Tamper = "[TamperCheck]"
+local Tamper = "https://raw.githubusercontent.com/jodta/my-scripts/refs/heads/main/source.luau"
 local Passed = false
 local function _helper(val)
 	local a,b,c = val,true,false
@@ -17,7 +16,7 @@ game:GetService("LogService").MessageOut:Connect(function(Msg, MsgType)
 		Passed = t or Passed
 	end
 end)
-print(Tamper)
+print("")
 repeat
 	task.wait()
 until Passed
