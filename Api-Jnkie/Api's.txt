@@ -1,0 +1,3 @@
+https://api.jnkie.com/api/v1/whitelist
+https://api.jnkie.com/api/v1/whitelist/verifyOpen
+https://api.jnkie.com/api/v1/whitelist/getKeyOpen
